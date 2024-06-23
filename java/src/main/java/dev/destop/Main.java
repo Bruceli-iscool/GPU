@@ -6,7 +6,8 @@ import com.aparapi.Range;
 public class Main {
     public static void main(String[] args) {
         final float inA[] = {1, 2, 4, 5 ,6 , 7};
-        final float inB[] = {5, 6, 7, 3, 5};
+        final float inB[] = {5, 6, 7, 3, 5, 8};
+        final float[] result = new float[inA.length];
         Kernel kernel = new Kernel() {
             @Override
             public void run() {

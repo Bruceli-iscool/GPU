@@ -12,10 +12,11 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    <dependenci>
+    <dependencies>
+        <dependency>
+        <groupId>com.aparapi</groupId>
+        <artifactId>aparapi</artifactId>
+        <version>2.0.0</version>
+        </dependency>
+    </dependencies>
 </project>
-    <dependency>
-    <groupId>com.aparapi</groupId>
-    <artifactId>aparapi</artifactId>
-    <version>2.0.0</version>
-    </dependency>
